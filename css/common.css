@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?totn92');
+    src: url('../fonts/icomoon.eot?totn92#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?totn92') format('truetype'),
+        url('../fonts/icomoon.woff?totn92') format('woff'),
+        url('../fonts/icomoon.svg?totn92#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    font-size: 12px;
+    background-color: #f1f1f1;
+}
+
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 所有快捷导航栏的li元素都要浮动 */
+.shortcut ul li {
+    float: left;
+}
+
+.fr ul li:nth-child(even) {
+    width: 1px;
+    height: 14px;
+    margin: 9px 14px;
+    background-color: #666666;
+}
+
+.fr ul li .down::after {
+    content: '\e90c';
+    font-family: 'icomoon';
+    margin-left: 8px;
+    line-height: 31px;
+}
+
+/* header开始 */
+header .w {
+    position: relative;
+    height: 106px;
+}
+
+header .logo {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    height: 55px;
+    width: 176px;
+    background: url(../images/pinyou.com.png) no-repeat;
+}
+
+header .logo a {
+    display: block;
+    height: 55px;
+    width: 176px;
+    /* 不让链接中的文字显示出来 */
+    font-size: 0;
+}
+
+.search {
+    position: absolute;
+    left: 346px;
+    top: 27px;
+    width: 540px;
+    height: 35px;
+    border: 1px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 453px;
+    /* 父级高度35减去上下边框宽度2 */
+    height: 33px;
+    font-size: 14px;
+    color: #666666;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: calc(100% - 453px);
+    height: 33px;
+    font-size: 16px;
+    background-color: #b1191a;
+    color: #f1f1f1;
+}
+
+.hotwords {
+    position: absolute;
+    top: 62px;
+    left: 346px;
+    width: 540px;
+    height: 20px;
+}
+
+.hotwords ul li {
+    float: left;
+    margin: 0 11px;
+}
+
+.hotwords ul li:first-child a {
+    font-size: 12px;
+    color: #b1191a;
+}
+
+.shopcar {
+    position: absolute;
+    top: 27px;
+    left: 996px;
+    width: 139px;
+    height: 35px;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.shopcar::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    color: #b1191a;
+    margin-right: 6px;
+}
+
+.shopcar::after {
+    content: '\e912';
+    font-family: 'icomoon';
+    color: #a3a3a3;
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+.shopcar .num {
+    position: absolute;
+    left: 105px;
+    top: -6px;
+    /* 不给宽度，直给高度，这样盒子可以根据内容大小挤开 */
+    height: 14px;
+    line-height: 14px;
+    padding: 0 5px;
+    background-color: #e60012;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
+
+/* 导航nav开始 */
+nav {
+    border-bottom: 2px solid #b1191a;
+}
+
+nav .w {
+    position: relative;
+    height: 45px;
+}
+
+.dropdown .dd {
+    height: 47px;
+    width: 208px;
+    background-color: #b1191a;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff
+}
+
+.dropdown .dt ul li {
+    /* 暂时隐藏，display隐藏后，不再占有原来的位置 */
+    /* display: none; */
+    position: relative;
+    height: 31px;
+    width: 208px;
+    background-color: #c81623;
+}
+
+.dropdown .dt ul li a {
+    display: block;
+    height: 31px;
+    line-height: 32px;
+    font-size: 14px;
+    padding-left: 11px;
+    color: #fff;
+}
+
+/* 右拉框的图标 */
+.dropdown .dt ul li a::after {
+    position: absolute;
+    right: 8px;
+    content: '\e912';
+    font-family: 'icomoon';
+}
+
+.dropdown .dt ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dt ul li a:hover {
+    color: #c81623;
+}
+
+/* 导航右侧 */
+.navitems {
+    position: absolute;
+    left: 219px;
+    top: 0px;
+    width: 730px;
+    height: 45px;
+}
+
+.navitems ul li {
+    float: left;
+    height: 45px;
+    margin: 0 24px;
+}
+
+.navitems ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 45px;
+    color: #333333;
+}
+
+.footer {
+    height: 417px;
+    background-color: #f5f5f5;
+    margin-top: 38px;
+}
+
+.footer .w {
+    height: 417px;
+}
+
+.mod_service {
+    height: 110px;
+    border-bottom: 2px solid #ededed;
+}
+
+.mod_service ul li {
+    float: left;
+    height: 52px;
+    width: 201px;
+    margin: 30px 30px 37px 0;
+}
+
+
+.mod_service ul li img {
+    float: left;
+    width: 52px;
+    height: 52px;
+    margin-right: 7px;
+}
+
+.mod_service ul li .service_detail {
+    height: 52px;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.mod_help {
+    height: 190px;
+    border-bottom: 2px solid #ededed;
+}
+
+.mod_help ul {
+    float: left;
+    height: 155px;
+    margin: 0 52px;
+}
+
+.mod_help ul li h3 {
+    margin: 12px 0;
+}
+
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright ul {
+    height: 12px;
+    width: 980px;
+    margin: 20px auto 20px auto;
+}
+
+.mod_copyright ul li {
+    float: left;
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.mod_copyright ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+    margin: 0 14px;
+}

@@ -1,0 +1,818 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?totn92');
+    src: url('../fonts/icomoon.eot?totn92#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?totn92') format('truetype'),
+        url('../fonts/icomoon.woff?totn92') format('woff'),
+        url('../fonts/icomoon.svg?totn92#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main主体开始 */
+article .w {
+    height: 466px;
+}
+
+article .main {
+    float: right;
+    width: 990px;
+    height: 466px;
+    /* background-color: pink; */
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    margin: 10px 9px 0 9px;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 164px;
+    margin-top: 10px;
+    border: 1px solid #e8e8e7;
+
+}
+
+.newsflash .news-hd {
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom: 1px dotted #e8e8e7;
+}
+
+.newsflash .news-bd {
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.news-hd .more {
+    position: absolute;
+    right: 15px;
+    font-size: 12px;
+    /* margin-right: 9px; */
+}
+
+.news-hd .more::after {
+    content: '\e912';
+    font-family: 'icomoon';
+}
+
+.main .lifeservice {
+    float: right;
+    height: 209px;
+    width: 250px;
+    /* background-color: rgb(241, 121, 121); */
+    border-left: 1px solid #e8e8e7;
+    border-right: 1px solid #e8e8e7;
+    border-bottom: 1px solid #e8e8e7;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 254px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    border-right: 1px solid #e8e8e7;
+    border-bottom: 1px solid #e8e8e7;
+}
+
+.lifeservice ul li img {
+    margin: 12px auto 12px auto;
+}
+
+
+.bargin img {
+    width: 250px;
+    margin-top: 8px;
+}
+
+/* 推荐recom模块  */
+.recom .w {
+    height: 164px;
+    margin-top: 11px;
+    background-color: pink;
+}
+
+.recom .recom-hd {
+    float: left;
+    width: 206px;
+    height: 164px;
+    background-color: #5c5251;
+}
+
+.recom .recom-hd img {
+    margin-top: 30px;
+    margin-left: 68px;
+}
+
+.recom .recom-hd p {
+    font-size: 18px;
+    color: #fff;
+    /* text-align: center; */
+    padding-top: 8px;
+    padding-left: 62px;
+}
+
+.recom .recom-bd {
+    float: left;
+    height: 164px;
+    width: 994px;
+    background-color: #ebebeb;
+}
+
+.recom .recom-bd ul li {
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 143px;
+    margin-top: 11px;
+    border-right: 1px solid #dddddd;
+}
+
+.recom .recom-bd ul li:last-child {
+    border-right: 0;
+}
+
+.recom .recom-bd ul li .recom-content {
+    margin-left: 19px;
+}
+
+.recom .recom-bd ul li h3 {
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+
+/* 第一个推荐内容 */
+.recom .recom-bd ul li span:nth-of-type(1) {
+    width: 87px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #00a0e8;
+    font-size: 14px;
+}
+
+.recom .recom-bd ul li span:nth-of-type(2) {
+    font-size: 12px;
+
+}
+
+.recom .recom-bd ul li span {
+    display: block;
+}
+
+.recom-bd ul li img {
+    position: absolute;
+    left: 132px;
+    top: 17px;
+}
+
+/* 第二个推荐内容 */
+
+.recom-bd ul li:nth-child(2) span:nth-of-type(1) {
+    background-color: #5fb200;
+}
+
+.recom-bd ul li:nth-child(2) span:nth-of-type(3) {
+    height: 18px;
+    width: 58px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 9px;
+    background-color: #5fb200;
+}
+
+
+/* 猜你喜欢模块 */
+.favor-title {
+    width: 1200px;
+    height: 21px;
+    margin-top: 30px;
+    margin-bottom: 11px;
+}
+
+.favor-title h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.favor a {
+    float: right;
+    font-size: 12px;
+    margin-right: 17px;
+}
+
+.favor a::after {
+    content: '\e900';
+    font-family: 'icomoon';
+}
+
+.favor .product {
+    height: 233px;
+    width: 1200px;
+    border: 1px solid #ededed;
+}
+
+.favor ul {
+    width: 1300px;
+}
+
+.favor ul li {
+    float: left;
+    width: 200px;
+    height: 233px;
+}
+
+/* 将pic盒子里面的内容垂直水品居中 */
+.favor ul li .pic {
+    width: 200px;
+    height: 162px;
+    text-align: center;
+    line-height: 162px;
+}
+
+.favor ul li section {
+    width: 200px;
+    height: 62px;
+    border-right: 1px solid #ededed;
+    font-size: 12px;
+    padding-left: 34px;
+    padding-right: 34px;
+    color: #666666;
+}
+
+.favor ul li:last-child section {
+    border-right: 0;
+}
+
+.favor ul li section p {
+    font-size: 18px;
+    color: #df3033;
+}
+
+.favor ul li section p::before {
+    content: '\e901';
+    font-family: 'icomoon';
+    font-size: 14px;
+}
+
+/* interest有趣区模块 */
+.interest {
+    height: 434px;
+    /* background-color: pink; */
+}
+
+.interest-hd h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 19px;
+    margin-bottom: 7px;
+}
+
+.interest-bd {
+    position: relative;
+    height: 407px;
+    border: 1px solid #ededed;
+    /* background-color: #345;s */
+}
+
+/* interest的第一个盒子 */
+.interest-bd .first {
+    float: left;
+    position: relative;
+    width: 405px;
+    height: 407px;
+    background-color: #b8bddd;
+}
+
+.interest-bd .first p {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: 16px;
+    color: #3b468d;
+}
+
+.interest-bd .first p em {
+    font-size: 18px;
+}
+
+.interest-bd .first img {
+    position: absolute;
+    right: 54px;
+    bottom: 31px;
+}
+
+/* interest第二个盒子 */
+.interest-bd .second {
+    float: left;
+    width: 634px;
+    height: 407px;
+    /* background-color: pink; */
+}
+
+.interest-bd .second .left {
+    float: left;
+    width: 227px;
+    height: 407px;
+}
+
+.interest-bd .second .right {
+    float: left;
+    width: 406px;
+    height: 407px;
+    background-color: #f7f7f7;
+}
+
+.interest-bd .second h3 {
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 17px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px dashed #ededed;
+}
+
+.interest-bd .second .left h3 {
+    width: 193px;
+}
+
+.interest-bd .second .right h3 {
+    width: 366px;
+}
+
+.interest-bd .second section {
+    position: relative;
+}
+
+.interest-bd .second section img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.interest-bd .second span {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+
+.interest-bd .second em {
+    color: #e60012;
+}
+
+.interest-bd .second .daren {
+    width: 227px;
+    height: 207px;
+    border-bottom: 1px solid #ededed;
+    font-size: 12px;
+}
+
+.interest-bd .second .faxian {
+    height: 160px;
+}
+
+.interest-bd .second .suboer {
+    width: 406px;
+    height: 207px;
+    border-bottom: 1px solid #ededed;
+
+}
+
+.interest-bd .second .dapai {
+    float: left;
+    width: 203px;
+    height: 160px;
+}
+
+.interest-bd .second .temai {
+    float: left;
+    width: 203px;
+    height: 160px;
+}
+
+.interest-bd .second .daren p {
+    padding-top: 69px;
+    padding-left: 10px;
+}
+
+.interest-bd .second .faxian p {
+    padding-left: 10px;
+    padding-top: 50px;
+
+}
+
+.interest-bd .second .suboer p {
+    padding-top: 69px;
+    padding-left: 51px;
+
+}
+
+.interest-bd .second .dapai p {
+    padding-top: 50px;
+    padding-left: 10px;
+
+}
+
+.interest-bd .second .temai p {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.interest-bd .third {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 163px;
+    height: 407px;
+}
+
+
+/* electric家用电器模块 */
+/* .electric {} */
+
+.electric-hd {
+    height: 19px;
+    margin-top: 30px;
+    margin-bottom: 9px;
+    /* background-color: pink; */
+}
+
+.electric-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.electric-hd ul {
+    float: right;
+}
+
+
+.electric-hd ul li {
+    float: left;
+    font-size: 12px;
+}
+
+.electric-hd ul li:nth-child(even) {
+    width: 1px;
+    height: 19px;
+    margin: 0 16px;
+    background-color: #999999;
+}
+
+.electric-bd {
+    height: 362px;
+    border-top: 2px solid #c81623;
+    background-color: #f9f9f9;
+}
+
+.electric-bd .first {
+    float: left;
+    position: relative;
+    width: 211px;
+    height: 360px;
+    text-align: center;
+}
+
+.electric-bd .first .fenlei {
+    width: 184px;
+    height: 99px;
+    margin-left: 13px;
+}
+
+.electric-bd .first .fenlei ul li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    color: #666666;
+    border-bottom: 1px solid #ededed;
+}
+
+.electric-bd .first .fenlei ul li:nth-child(odd) {
+    margin-right: 12px;
+}
+
+.electric-bd .first h3 {
+    font-size: 18px;
+    color: #c81623;
+    margin-top: 27px;
+    font-weight: 400;
+}
+
+.electric-bd .first span {
+    font-size: 12px;
+    color: #c81623;
+}
+
+.electric-bd .first img {
+    position: absolute;
+    left: 27px;
+    bottom: 39px;
+}
+
+.electric-bd .second {
+    float: left;
+    position: relative;
+    width: 330px;
+    height: 360px;
+}
+
+.domestic .second {
+    background-color: #aed6d8;
+
+}
+
+.phone .second {
+    background-color: #c6e8b6;
+}
+
+.computer .second {
+    background-color: #d7aac9;
+}
+
+.electric-bd .second p {
+    font-size: 18px;
+    color: #066c7d;
+    margin-top: 38px;
+    margin-left: 31px;
+}
+
+.electric-bd .second p span {
+    font-size: 16px;
+}
+
+.electric-bd .second .pic {
+    width: 330px;
+    height: 256px;
+    text-align: center;
+    line-height: 256px;
+}
+
+/* .electric-bd .second img {
+    position: absolute;
+    top: 112px;
+    left: 50px;
+} */
+
+.electric-bd .second .slide {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    margin-left: -23px;
+    width: 46px;
+    height: 12px;
+}
+
+.electric-bd .second .slide ul {
+    width: 100px;
+}
+
+.electric-bd .second .slide ul li {
+
+    float: left;
+    list-style: disc inside none;
+    font-size: 12px;
+}
+
+.electric-bd .second .slide ul li:first-child {
+    color: #fff;
+}
+
+.electric-bd .second .slide ul li:hover {
+    color: #fff;
+}
+
+.electric-bd .third {
+    float: left;
+    width: 659px;
+    height: 360px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.electric-bd .third p {
+    font-size: 16px;
+    padding-top: 24px;
+    margin-left: 19px;
+    color: #000;
+}
+
+.electric-bd .third em {
+    font-size: 14px;
+    color: #e60012;
+    margin-left: 19px;
+}
+
+.electric-bd .third img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.electric-bd .third .box1 {
+    float: left;
+    width: 218px;
+    height: 360px;
+}
+
+.electric-bd .third .up {
+    position: relative;
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+}
+
+.electric-bd .third .down {
+    position: relative;
+
+    height: 180px;
+}
+
+.electric-bd .third .box2 {
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 360px;
+    text-align: center;
+    border-right: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+
+}
+
+.electric-bd .third .box3 {
+    float: left;
+    width: 220px;
+    height: 360px;
+}
+
+.electric-bd .third .box2 p {
+    font-size: 18px;
+    padding-top: 71px;
+}
+
+.electric-bd .third .box2 span {
+    font-size: 16px;
+    color: #999999;
+}
+
+.electric-bd .third .box2 img {
+    position: absolute;
+    bottom: 53px;
+}
+
+.domestic .third .box2 img {
+    left: 22px;
+}
+
+.phone .third .box2 img {
+    left: 48px
+}
+
+.computer .third .box2 img {
+    left: 44px
+}
+
+.brand {
+    height: 66px;
+    background-color: #f7f7f7;
+    margin-top: 30px;
+}
+
+.brand ul li {
+    float: left;
+    width: 120px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 13px;
+    border-right: 1px dashed #cccccc;
+}
+
+.brand ul li img {
+    width: 55%;
+}
+
+.brand ul li:last-child {
+    border-right: 0;
+}
+
+
+.hotsale h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.hotsale-bd {
+    height: 281px;
+    width: 1200px;
+    border: 1px solid #e5e5e5;
+}
+
+.hotsale-bd .box1 {
+    float: left;
+    width: 239px;
+    height: 281px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.hotsale-bd .box1 img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.hotsale-bd .box1 p {
+    margin-top: 65px;
+    margin-left: 28px;
+    font-size: 12px;
+}
+
+.hotsale-bd span {
+    font-size: 16px;
+    color: #df3033;
+}
+
+.hotsale-bd span::before {
+    font-family: 'icomoon';
+    content: '\e901';
+}
+
+.hotsale-bd .box2 {
+    width: 660px;
+    float: left;
+}
+
+.hotsale-bd .box2 ul li {
+    float: left;
+    width: 219px;
+    height: 140px;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 18px;
+}
+
+.hotsale-bd .box2 ul li img {
+    float: left;
+}
+
+.hotsale-bd .box3 ul li {
+    height: 140px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.hotsale-bd .box3 ul li img {
+    float: left;
+}
+
+.hotsale-bd .box3 .pic {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    /* background-color: pink; */
+    vertical-align: middle;
+}
+
+.hotsale-bd .box3 p {
+    float: left;
+    width: 166px;
+    height: 55px;
+    padding-top: 13px;
+    background-color: #f8f8f8;
+}

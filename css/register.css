@@ -1,0 +1,126 @@
+header {
+    position: relative;
+    height: 82px;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 82px;
+    border-bottom: 2px solid #b1191a;
+    /* background-color: pink; */
+}
+
+header .logo {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    height: 55px;
+    width: 176px;
+    background: url(../images/pinyou.com.png) no-repeat;
+}
+
+.register {
+    height: 524px;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+}
+
+.register-hd {
+    height: 42px;
+    width: 1200px;
+    line-height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dddddd;
+}
+
+.register-hd h3 {
+    float: left;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.register-hd p {
+    float: right;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.register-hd p a {
+    color: #c81623;
+}
+
+.register-bd {
+    padding-top: 54px;
+    padding-left: 313px;
+}
+
+.register-bd form {
+    width: 330px;
+    height: 227px;
+    text-align: right;
+}
+
+.register-bd ul li {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.register-bd ul li input {
+    width: 238px;
+    height: 35px;
+    border: 1px solid #999999;
+}
+
+
+.register-bd ul li .security {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.register-bd ul li .security em {
+    display: inline-block;
+    text-align: center;
+    width: 34px;
+    color: #fff;
+}
+
+.register-bd ul li .security em:first-child {
+    background-color: #de1111;
+}
+
+.register-bd ul li .security em:last-child {
+    background-color: #f79100;
+}
+
+.register-bd ul li .security em:nth-child(2) {
+    background-color: #40b83f;
+}
+
+
+
+.register-bd .protocal input {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    /* color: #1fa3e6; */
+}
+
+.register-bd .protocal a {
+    color: #1fa3e6;
+}
+
+
+#btn-register {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    color: white;
+}
+
+/* footer开始 */
+.footer {
+    height: 86px;
+    background-color: #fff;
+    margin-top: 22px;
+}
